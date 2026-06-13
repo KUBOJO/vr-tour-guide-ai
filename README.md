@@ -28,3 +28,16 @@ Keterbatasan ini didasari oleh beberapa faktor teknis dan efisiensi di lapangan:
 * 🎤 **Voice Activation / Wake Word:** Cukup ucapkan *"AI kamu harus aktif dong"*, radar mic akan mendengarkan secara otomatis di latar belakang.
 * 🤖 **RAG Scheduled System:** AI mengunci jawaban dari database jadwal operasional Filament Laravel.
 * 🔄 **Auto-Redirect VR:** Layar web akan bergeser dan memuat panorama lokasi baru secara otomatis tanpa klik jika AI mendeteksi permintaan user lewat suara.
+
+
+
+---
+
+## 🚀 Panduan Instalasi Model AI (Untuk Dosen Penguji)
+
+Untuk menjalankan Pipeline AI Lokal di perangkat Anda, silakan ikuti langkah ringkas berikut:
+
+1. **Instalasi Ollama:** Unduh dan instal Ollama melalui situs resmi [ollama.com](https://ollama.com).
+2. **Download Model LLM:** Buka CMD/Terminal Anda, lalu jalankan perintah berikut untuk mengunduh model secara otomatis dari server:
+   ```bash
+   ollama run qwen2.5:1.5b
